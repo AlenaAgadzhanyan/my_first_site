@@ -1,0 +1,309 @@
+@media screen and (max-width: 1700px) {
+    .block2_2{
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+    }
+    .image_stack2{
+        margin-left: 10%;
+        margin-top: 5%;
+    }
+    .text3{
+        margin-left: 10%;
+    }
+}
+
+@media screen and (max-width: 1571px) {
+    .block2_1{
+        flex-wrap: nowrap;
+    }
+    .text2{
+        margin-left: 7%;
+        flex-wrap: wrap;
+    }
+    .image_stack1{
+        margin-left: 1%;
+    }
+    .image_stack2{
+        margin-left: 1%;
+        margin-top: 10%;
+    }
+    .text3{
+        margin-left: 5%;
+    }
+    .image4 img{
+        margin-left: 5%;
+    }
+    .block2_1{
+        justify-content: flex-start;
+    }
+}
+
+@media screen and (max-width: 1339px) {
+    .block2_1{
+        flex-wrap: nowrap;
+    }
+    .block2_2{
+        justify-content: flex-start;
+    }
+    .image4 img{
+        width: 350px;
+        height: 250px;
+        margin-left: 0%;
+    }
+    .text3{
+        margin-left: 0%;
+    }
+    .image_stack2{
+        margin-left: -3.8%;
+    }
+}
+
+@media screen and (max-width:1095px) {
+    .block2_1{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .text2{
+        margin-top: -20%;
+    }
+    .image_stack1{
+        margin-top: -7%;
+    }
+    .block2_2{
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin-top: 10%;
+    }
+    .image_stack2{
+        margin-top: 20%;
+        margin-left: 10%;
+    }
+    .image7{
+        margin-right: 50%;
+    }
+}
+
+@media screen and (max-width:1085px) {
+    .forms{
+        margin-top: -20%;
+    }
+    #block4{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: repeat(5,1fr);
+        align-content: start;
+        justify-items: stretch;
+    }
+    .image9{
+        grid-column: 1/3;
+        grid-row: 2/3;
+    }
+    .text4{
+        grid-column: 1/3;
+        grid-row: 3/4;
+    }
+    .block4_1{
+        grid-column: 1/3;
+        grid-row: 4/5;
+    }
+    .image11{
+        grid-column: 1/3;
+        grid-row: 5/6;
+
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .image7{
+        margin-left: -25%;
+    }
+    .statistic{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .happy_clients, .awards, .our_projects, .work_time{
+        margin: 0;
+    }
+    .block2_2{
+        flex-direction: column;
+        align-items: baseline;
+    }
+    .text3, .image4{
+        padding-left: 10%;
+    }
+
+    #block4{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+    }
+    .image9, .image11{
+        height: 100vw;
+    }
+    .image9 img, .image11 img{
+        height: 100%;
+        width: 100vw;
+    }
+    .image10 img{
+        width: 100vw;
+    }
+    .image12 img{
+        width: 30vw;
+    }
+    .text4{
+        height: 100vw;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .image1 img{
+        height: 100vw;
+        width: 60vw;
+    }
+    #block1 h1{
+        font-size: 10vw;
+    }
+    #block1 p{
+        font-size: 5vw;
+    }
+    #block1 button,.post{
+        font-size: 1vw;
+        padding: 2% 4% 2%;
+        margin: 4% auto 4% 0;
+    }
+    .image2 img {
+        height: 90vw;
+        width: 70vw;
+    }
+    .image3 img{
+        height: 35vw;
+        width: 35vw;
+        position: relative;
+        top: -20vw;
+        left: 50vw;
+    }
+    #block2 h2,.text4 h2, .end h2, .text5 h2{
+        font-size: 5vw;
+    }
+    #block2 span{
+        font-size: 13vw;
+    }
+    #block2 p, .end p{
+        font-size: 3vw;
+    }
+    .image6 img{
+        height: 80vw;
+        width: 70vw;
+    }
+    .image5 img{
+        height: 50vw;
+        width: 50vw;
+    }
+    .image4 img{
+        height: 40vw;
+        width: 60vw;
+    }
+    .image7 img{
+        height: 25vw;
+        width: 80vw;
+    }
+    #block3 h2{
+        font-size: 5vw;
+    }
+    #block3 h1{
+        font-size: 8vw;
+    }
+    .happy_clients p, .awards p, .our_projects p, .work_time p{
+        font-size: 2.5vw;
+    }
+    .statistic{
+        row-gap: 4%;
+    }
+    .text_image8 h1{
+        font-size: 10vw;
+        margin: 7% 0 0;
+    }
+    .text_image8 p{
+        font-size: 4vw;
+        margin: 2% 0 5%;
+    }
+    .text_image8{
+        margin: 10% 0 0 1%;
+    }
+    .block4_2{
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .forms{
+        display: flex;
+        flex-direction: column;
+        margin-left: 12vw;
+    }
+    input[type=text]{
+        width: 60vw;
+        font-size: 3vw;
+        margin: 35vw 30px 0 0;
+        padding: 10px;
+    }
+    input[type=email]{
+        width: 60vw;
+        font-size: 3vw;
+        margin: 5vw 30px 0 0;
+        padding: 10px;
+    }
+    textarea{
+        width: 60vw;
+        height: 40vw;
+        font-size: 3vw;
+        margin: 5vw 30vw 0 0;
+        padding: 10px;
+    }
+    .post{
+        font-size: 1.5vw;
+    }
+    /*.text4{
+        height: 100vw;
+    }*/
+    .text4 span{
+        font-size: 10vw;
+    }
+    .text4 p{
+        font-size: 3vw;
+    }
+    .text5,.text4{
+        padding-left: 2%;
+    }
+    .text5 p{
+        font-size: 5vw;
+        margin-top:10%;
+    }
+    /*#block4{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+    }
+    .image9, .image11{
+        height: 100vw;
+    }
+    .image9 img, .image11 img{
+        height: 100%;
+        width: 100vw;
+    }
+    .image10 img{
+        width: 100vw;
+    }
+    .image12 img{
+        width: 30vw;
+    }*/
+    #block1{
+        height: 170vw;
+    }
+    .end{
+        height: 100vw;
+        padding-top: 30vw;
+    }
+}

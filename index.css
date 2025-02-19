@@ -1,0 +1,368 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+header{
+    overflow: hidden;
+}
+#block1{
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.25), rgba(0,0,0,0.25)), url(./images/фон.jpg);
+    background-size: cover;
+    object-fit: cover;
+}
+.block1_1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+}
+.text1{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-top: 7%;
+}
+
+
+.image1{
+    display: flex;
+    position: relative;
+    height: 700px;
+    margin-top: 5%;
+}
+.image1 img{
+    height: 670px;
+}
+#block1 h1{
+    font-family: "Protest Strike",sans-serif;
+    font-size: 6rem;
+    color: #ffffff;
+}
+#block1 p{
+    font-family: "Open Sans",sans-serif;
+    font-size: 3rem;
+    color: #ffffff;
+}
+#block1 button,.post{
+    font-family: "Open Sans", sans-serif;
+    border: none;
+    font-size: 0.7rem;/*размер шрифта*/
+    font-weight: 800;/*жирный шрифт*/
+    letter-spacing: 1px;/*интервал между буквами*/
+    color: #ffffff;
+    padding: 17px 36px 18px;
+    background-color: #de0540 !important;
+    margin: 40px auto 38px 0;
+}
+
+
+#block2{
+    background-color: #43005d;
+    background-size: cover;
+    object-fit: cover;
+    display: flex;
+    flex-direction: column;
+}
+.block2_1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:center;
+    margin-top: 7%;
+}
+.text2{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-left: 10%;
+}
+.image2 img {
+    position: relative;
+    height: 612px;
+    width: 519px;
+}
+.image3 img{
+    position: relative;
+    top: -200px;
+    left: 350px;
+    height: 284px;
+    width: 284px;
+}
+.image_stack1{
+    margin-left: 10%;
+    margin-top: -11%;
+}
+#block2 h2,.text4 h2, .end h2, .text5 h2{
+    font-family: "Roboto",sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+    color:#f70647 !important;
+}
+#block2 span{
+    font-family: "Open Sans",sans-serif;
+    font-size: 8rem;
+    font-weight: 300;
+    color: #ffffff;
+}
+#block2 p, .end p{
+    font-family: "Open Sans",sans-serif;
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #ffffff;
+}
+
+
+
+.block2_2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.text3{
+    display: flex;
+    flex-direction: column;
+    height: min-content;
+    margin-left: 5%;
+}
+.image4 img{
+    margin-left: 15%;
+    margin-top: 20%;
+}
+.image_stack2{
+    display: flex;
+    flex-direction: row;
+    margin-left: 4%;
+}
+.image6 img{
+    position: relative;
+    height: 634px;
+    width: 568px;
+    z-index: 1;
+}
+.image5 img{
+    position: relative;
+    height: 300px;
+    width: 300px;
+    left: -90%;
+    top: -20%;
+}
+
+
+#block3{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+#block3 h2{
+    color:#43005d;
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 5%;
+}
+#block3 h1{
+    font-family: "Open Sans",sans-serif;
+    color: #f70647 !important;
+    font-size: 5rem;
+    font-weight: bold;
+}
+.statistic{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.happy_clients, .awards, .our_projects, .work_time{
+    margin: 5%;
+    text-align: center;
+}
+.happy_clients p, .awards p, .our_projects p, .work_time p{
+    font-size: 0.875rem;
+    font-weight: 700;
+    margin-top: 2%;
+}
+
+
+.image7 img{
+    position: relative;
+    left:73%;
+    height: 197px;
+    width: 500px;
+}
+.image7{
+    margin-top: -5%;
+    z-index: 1;
+}
+
+
+
+#block4{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: repeat(3,1fr);
+    align-content: start;
+    justify-items: stretch;
+}
+.text_image8 h1{
+    font-family: "Roboto",sans-serif;
+    color:#f70647 !important;
+    font-weight: 500;
+    letter-spacing: 2px;
+    font-size: 4.5rem;
+    margin: 45px 0 0;
+}
+.text_image8 p{
+    font-family: "Open Sans",sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.6;
+    margin: 20px 0 45px;
+    color: #ffffff;
+}
+
+.text_image8{
+    margin: 10% 0 0 5%;
+}
+.block4_1{
+    display: flex;
+    flex-direction: column;
+}
+.image8{
+    grid-column: 1/3;
+    background-image: linear-gradient(0deg,rgba(67,0,93,0.7), rgba(67,0,93,0.7)), url(./images/3_телефона.jpg);
+    background-size: cover;
+    object-fit: cover;
+}
+.image9{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    justify-self: stretch;
+}
+.image9 > img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.text4{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    padding-top: 10%;
+    padding-left: 10%;
+    justify-self: stretch;
+    background-color: #43005d;
+    object-fit: cover;
+    width: 100%;
+}
+.text4 span{
+    font-family: "Open Sans",sans-serif;
+    font-size: 8rem;
+    font-weight: 300;
+    color: #ffffff;
+}
+.text4 p{
+    font-family: "Open Sans",sans-serif;
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 1.6;
+    margin-top: 50px;
+    color: #ffffff;
+}
+.image10{
+    grid-row: 3/4;
+    grid-column: 1/2;
+    justify-self: stretch;
+    object-fit: cover;
+}
+.text5{
+    background-image: url(./images/bg3.jpg);
+    height: 100%;
+    padding-left: 8%;
+    padding-top: 12%;
+}
+.text5 p{
+    font-weight: 400;
+    line-height: 1.6;
+    font-size: 1.125rem;
+    margin-top:30px;
+}
+
+.image10 img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.image11{
+    grid-row: 3/4;
+    grid-column: 2/3;
+    justify-self: stretch;
+    object-fit: cover;
+}
+.image11 img{
+    position: relative;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.end{
+    display: flex;
+    flex-direction: column;
+    row-gap: 7%;
+    align-items: center;
+    padding-top: 100px;
+    height: 400px;
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.25), rgba(0,0,0,0.25)), url(./images/фон_2.jpg);
+}
+
+input[type=text]{
+    width: 300px;
+    font-size: 16px;
+    margin: 200px 30px 0 0;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: transparent;
+    border-color: #de0540;
+}
+input[type=email]{
+    width: 300px;
+    font-size: 16px;
+    margin: 20px 30px 0 0;
+    padding: 10px;
+    box-sizing: border-box;
+    border-color: #de0540;
+    background-color: transparent;
+}
+textarea{
+    width: 300px;
+    height: 200px;
+    font-size: 16px;
+    margin: 20px 30px 0 0;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: transparent;
+    border-color: #de0540;
+}
+.post{
+    font-family: "Open Sans", sans-serif;
+    border: none;
+    font-size: 0.7rem;
+    font-weight: 800;
+    letter-spacing: 1px;
+    color: #ffffff;
+    background-color: #de0540 !important;
+}
+.text_image8{
+    display: flex;
+    flex-direction: column;
+}
+.block4_2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
